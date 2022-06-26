@@ -5,6 +5,7 @@ import "./App.css";
 import RenderInput from "./RenderInput";
 import FrameworkList from "./FrameworkList";
 import MockServer from "./MockServer";
+import Redux from "./Redux";
 
 function App() {
   const output = (e) => console.log(e);
@@ -27,6 +28,7 @@ function App() {
         <RenderInput outputConsole={output} />
         <FrameworkList frameworks={data} />
         <MockServer />
+        <Redux />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
